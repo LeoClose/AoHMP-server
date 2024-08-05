@@ -9,7 +9,7 @@ http.get({'host': 'api.ipify.org', 'port': 80, 'path': '/'}, function(resp) {
     });
 });
 
-server.listen(8080, function(){
+server.listen(3000, function(){
     console.log("[Server] Running");
 });
 
